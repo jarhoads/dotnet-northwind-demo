@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{FA1B02BD-C195-4A68-8BC7-729942510F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{1F9A003F-ABD8-4532-ADF9-0C817A642C2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Web", "Northwind.Web\Northwind.Web.csproj", "{905DA996-C884-4049-B6F6-979B43C65F68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Razor.Employees", "Northwind.Razor.Employees\Northwind.Razor.Employees.csproj", "{D6BDB5D3-DAD6-4D7B-B2F5-9ACC5C1280BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Mvc", "Northwind.Mvc\Northwind.Mvc.csproj", "{71B58AE2-B104-4D1C-9F06-C730F4C0D3AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.WebApi", "Northwind.WebApi\Northwind.WebApi.csproj", "{2CE3B2B8-66D4-4817-A7C5-F3E1E19DA439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA1B02BD-C195-4A68-8BC7-729942510F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1B02BD-C195-4A68-8BC7-729942510F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1B02BD-C195-4A68-8BC7-729942510F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1B02BD-C195-4A68-8BC7-729942510F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9A003F-ABD8-4532-ADF9-0C817A642C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9A003F-ABD8-4532-ADF9-0C817A642C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9A003F-ABD8-4532-ADF9-0C817A642C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9A003F-ABD8-4532-ADF9-0C817A642C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905DA996-C884-4049-B6F6-979B43C65F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905DA996-C884-4049-B6F6-979B43C65F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905DA996-C884-4049-B6F6-979B43C65F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905DA996-C884-4049-B6F6-979B43C65F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BDB5D3-DAD6-4D7B-B2F5-9ACC5C1280BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BDB5D3-DAD6-4D7B-B2F5-9ACC5C1280BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BDB5D3-DAD6-4D7B-B2F5-9ACC5C1280BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BDB5D3-DAD6-4D7B-B2F5-9ACC5C1280BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B58AE2-B104-4D1C-9F06-C730F4C0D3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B58AE2-B104-4D1C-9F06-C730F4C0D3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B58AE2-B104-4D1C-9F06-C730F4C0D3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B58AE2-B104-4D1C-9F06-C730F4C0D3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE3B2B8-66D4-4817-A7C5-F3E1E19DA439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE3B2B8-66D4-4817-A7C5-F3E1E19DA439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE3B2B8-66D4-4817-A7C5-F3E1E19DA439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE3B2B8-66D4-4817-A7C5-F3E1E19DA439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35A993C2-7858-430F-8969-2CBC65BDF0C5}
+	EndGlobalSection
+EndGlobal

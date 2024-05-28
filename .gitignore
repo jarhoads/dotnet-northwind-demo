@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Northwind.Common.DataContext.SqlServer/bin/Debug/net8.0
+/Northwind.Common.DataContext.SqlServer/obj
+/Northwind.Common.EntityModels.SqlServer/bin/Debug/net8.0
+/Northwind.Common.EntityModels.SqlServer/obj
+/Northwind.Mvc/bin/Debug/net8.0
+/Northwind.Mvc/obj
+/Northwind.Razor.Employees/bin/Debug/net8.0
+/Northwind.Razor.Employees/obj
+/Northwind.Web/bin/Debug/net8.0
+/Northwind.Web/obj
+/Northwind.WebApi/bin/Debug/net8.0
+/Northwind.WebApi/obj
