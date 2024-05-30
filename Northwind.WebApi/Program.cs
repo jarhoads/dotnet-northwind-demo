@@ -51,6 +51,13 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 builder.Services.AddCors();
 
+// DB health check
+// By default, the database context check calls EF Core's 
+// CanConnectAsync method. You can customize what operation is run 
+// by calling the AddDbContextCheck method
+builder.Services.AddHealthChecks()
+                .AddDbContextCheck<NorthwindContext>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -83,6 +90,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseHealthChecks(path: "/howdoyoufeel");
 
 app.MapControllers();
 
