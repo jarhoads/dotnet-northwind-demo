@@ -49,11 +49,20 @@ builder.Services.AddSwaggerGen(c =>
 // register repository as a service
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
+builder.Services.AddCors();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
 app.UseHttpLogging();
+
+app.UseCors(configurePolicy: options =>
+{
+    options.WithMethods("GET", "POST", "PUT", "DELETE");
+    // allow requests from the MVC client
+    options.WithOrigins("https://localhost:5001");
+});
 
 if (app.Environment.IsDevelopment())
 {
