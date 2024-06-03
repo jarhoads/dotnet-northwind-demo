@@ -15,3 +15,7 @@
 /Northwind.Web/obj
 /Northwind.WebApi/bin/Debug/net8.0
 /Northwind.WebApi/obj
+/Minimal.WebApi/bin/Debug/net8.0
+/Minimal.WebApi/obj
+/Northwind.Common/obj
+/Northwind.Common/bin/Debug/net8.0
